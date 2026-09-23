@@ -5,6 +5,8 @@ using BookWorldSystem.Models;
 
 namespace BookWorldSystem.Controllers
 {
+    // Patrón de diseño implementado: MVC (Model-View-Controller).
+    // La lógica de negocio se centraliza aquí en el controlador, mientras los modelos representan datos y la vista interactúa con el usuario.
     // Controlador principal del sistema de préstamos.
     // Aquí se gestionan los libros, usuarios y préstamos activos, así como las reglas de negocio.
     public class LoanController
